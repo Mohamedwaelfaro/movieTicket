@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIcon?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="535.0" prefWidth="589.0" styleClass="stack" stylesheets="@Desgin_Dashport.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="entertamaintticketbookingmanagementsystem.FXMLDocumentController">
+   <children>
+      <AnchorPane fx:id="sign_in_Form" prefHeight="523.0" prefWidth="619.0">
+         <children>
+            <Label layoutX="220.0" layoutY="130.0" text="Sign In Account" textFill="#0d0d0d">
+               <font>
+                  <Font name="Gill Sans MT" size="20.0" />
+               </font>
+            </Label>
+            <TextField fx:id="sign_in_username" layoutX="169.0" layoutY="175.0" onAction="#signIn" prefHeight="30.0" prefWidth="237.0" promptText="Username" styleClass="textfield" stylesheets="@Desgin_Dashport.css" />
+            <PasswordField fx:id="sign_in_password" layoutX="171.0" layoutY="231.0" onAction="#signIn" prefHeight="30.0" prefWidth="237.0" promptText="Password" styleClass="textfield" stylesheets="@Desgin_Dashport.css" />
+            <TextField fx:id="login_showPassword" layoutX="171.0" layoutY="231.0" prefHeight="30.0" prefWidth="237.0" promptText="Password" styleClass="textfield" stylesheets="@Desgin_Dashport.css" visible="false" />
+            <Button fx:id="sign_in_login" layoutX="165.0" layoutY="321.0" mnemonicParsing="false" onAction="#signIn" prefHeight="40.0" prefWidth="237.0" styleClass="btn" stylesheets="@Desgin_Dashport.css" text="Login" textFill="#0b0b0b" />
+            <FontAwesomeIcon glyphName="USER" layoutX="246.0" layoutY="122.0" size="6em" />
+            <Button fx:id="sign_in_close" layoutX="531.0" layoutY="1.0" mnemonicParsing="false" onAction="#signUp_close" prefHeight="26.0" prefWidth="59.0" styleClass="btn" stylesheets="@Desgin_Dashport.css" />
+            <Button fx:id="sign_in_min" layoutX="471.0" layoutY="1.0" mnemonicParsing="false" onAction="#signIn_minmaz" prefHeight="26.0" prefWidth="59.0" styleClass="btn" stylesheets="@Desgin_Dashport.css" />
+            <FontAwesomeIcon glyphName="CLOSE" layoutX="554.0" layoutY="19.0" />
+            <FontAwesomeIcon glyphName="MINUS" layoutX="497.0" layoutY="20.0" />
+            <Hyperlink fx:id="sign_in_createAccount" layoutX="224.0" layoutY="399.0" onAction="#switshForm" prefHeight="22.0" prefWidth="142.0" styleClass="Hyper-link" stylesheets="@Desgin_Dashport.css" text="Creat an Account!" />
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="sign_up_" prefHeight="523.0" prefWidth="145.0" visible="false">
+         <children>
+            <Label layoutX="227.0" layoutY="129.0" text="Sign Up Account">
+               <font>
+                  <Font name="Gill Sans MT" size="20.0" />
+               </font>
+            </Label>
+            <TextField fx:id="siginup_emailaddress" layoutX="176.0" layoutY="177.0" prefHeight="30.0" prefWidth="237.0" promptText="Email Address" styleClass="textfield" stylesheets="@Desgin_Dashport.css" />
+            <TextField fx:id="siginup_username" layoutX="176.0" layoutY="232.0" prefHeight="30.0" prefWidth="237.0" promptText="Username" styleClass="textfield" stylesheets="@Desgin_Dashport.css" />
+            <PasswordField fx:id="siginup_pass" layoutX="178.0" layoutY="287.0" prefHeight="30.0" prefWidth="237.0" promptText="Password" styleClass="textfield" stylesheets="@Desgin_Dashport.css" />
+            <Button layoutX="175.0" layoutY="343.0" mnemonicParsing="false" onAction="#signUp" prefHeight="40.0" prefWidth="237.0" styleClass="btn" stylesheets="@Desgin_Dashport.css" text="Sign Up" />
+            <Label layoutX="179.0" layoutY="463.0">
+               <font>
+                  <Font name="Gill Sans MT" size="15.0" />
+               </font>
+            </Label>
+            <FontAwesomeIcon glyphName="USER_PLUS" layoutX="256.0" layoutY="122.0" size="6em" />
+            <Hyperlink fx:id="siginup_dohave" layoutX="210.0" layoutY="461.0" onAction="#switshForm" styleClass="Hyper" stylesheets="@Desgin_Dashport.css" text="Already have an account?" />
+            <Button fx:id="siginup_close" layoutX="530.0" layoutY="1.0" mnemonicParsing="false" onAction="#signUp_close" prefHeight="26.0" prefWidth="59.0" styleClass="btn" stylesheets="@Desgin_Dashport.css" />
+            <Button fx:id="siginup_min" layoutX="470.0" layoutY="2.0" mnemonicParsing="false" onAction="#signUp_minmaz" prefHeight="26.0" prefWidth="59.0" styleClass="btn" stylesheets="@Desgin_Dashport.css" />
+            <FontAwesomeIcon glyphName="CLOSE" layoutX="554.0" layoutY="20.0" />
+            <FontAwesomeIcon glyphName="MINUS" layoutX="494.0" layoutY="20.0" />
+         </children>
+      </AnchorPane>
+   </children>
+</StackPane>

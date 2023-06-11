@@ -1,0 +1,140 @@
+.white-bg{
+    -fx-background-color: #fff;
+}
+.Hyper-link{
+    
+    -fx-text-fill: #000000;
+}
+.stack{
+    -fx-background-color: linear-gradient(to bottom right, #16a47c, #2a827b);
+    -fx-cursor: hand;
+    -fx-text-fill: #fff;
+    -fx-font-size: 14px;
+    -fx-font-family: Arial;
+}
+.btn{
+    -fx-background-color: linear-gradient(to bottom right, #16a47c, #2a827b);
+    -fx-cursor: hand;
+    -fx-text-fill: #fff;
+    -fx-font-size: 14px;
+    -fx-font-family: Arial;
+}
+.btn:hover{
+    -fx-background-color: linear-gradient(to bottom right, #10ae94, #187778);
+}
+
+.textfield{
+    -fx-border-coior: #000;
+    -fx-border-width: .5px;
+}
+.textfield:focused{
+    -fx-border-color: linear-gradient(to bottom right, #16a47c, #2a827b);
+    -fx-border-width: .8px;
+}
+.insert-btn{
+    -fx-background-color:#3149al;
+    -fx-background-radius: 8px;
+    -fx-fill-text:#fff;
+    -fx-font-size: 14px;
+    -fx-cursor: hand;
+} 
+.insert-btn:hover{
+    -fx-background-color:#3c71c4;
+}
+.update-btn{
+    -fx-background-color:#3149al;
+    -fx-background-radius: 8px;
+    -fx-fill-text:#fff;
+    -fx-font-size: 14px;
+    -fx-cursor: hand;
+}
+.update-btn:hover{
+   -fx-background-color:#3ea185;
+}
+.delete-btn{
+    -fx-background-color:#962934;
+    -fx-background-radius: 8px;
+    -fx-fill-text:#fff;
+    -fx-font-size: 14px;
+    -fx-cursor: hand;
+}
+.delete-btn:hover{
+   -fx-background-color:#d33d63; 
+}
+.clear-btn{
+    -fx-background-color:#933b80;
+    -fx-background-radius: 8px;
+    -fx-fill-text:#fff;
+    -fx-font-size: 14px;
+    -fx-cursor: hand;
+}
+.clear-btn:hover{
+   -fx-background-color:#c242be; 
+}
+.top-form{
+-fx-background-color:#fff;
+-fx-border-color:#000;
+-fx-border-width:.2px .2px .4px .2px;
+}
+.close{
+-fx-background-color:transparent;
+-fx-cursor:hand;
+}
+
+.close:hover{
+-fx-background-color:e74141;
+}
+.minimize{
+-fx-background-color:transparent;
+-fx-cursor:hand;
+}
+.minimize:hover{
+-fx-background-color:#dadada;
+}
+.nav-form{
+-fx-background-color:linear-gradient (to top right,#le242e,#ae2d3c);
+}
+.nav-btn{
+-fx-background-color:transparent;
+-fx-cursor:hand;
+-fx-text-fill:#fff;
+-fx-font-size:14px;
+}
+.nav-btn:hover{
+-fx-background-color: #ae2d3c;
+}
+.signput{
+-fx-background-color:#ae2d3c;
+-fx-font-radius:8px;
+-fx-cursor:hand;
+}
+.signput:hover{
+-fx-background-color:#d62651;
+}
+.white-bg{
+-fx-background-color: #fff;
+-fx-effect:dropshadow(three-pass-box,rgba(0,0,0,.3),8,0,0,0);
+-fx-background-radius: 8px;
+}
+.white-bg:hover{
+-fx-effect:dropshadow(three-pass-box,rgba(0,0,0,.5),8,0,0,0);
+}
+.cardl{
+-fx-background-color:linear-gradient (to right, #2b428c, #2e58ab);
+-fx-background-radius:0px 10px 10px 0px;
+}
+.card:hoverl{
+-fx-effect:dropshadow(three-pass-box,rgba(0,0,0,0.5),5,0,0,0);
+}
+.add-textfield{
+-fx-background-color:#fff;
+-fx-background-radius: 0px 5px 0px 0px;
+-fx-border-color: #10ae94;
+-fx-border-width:.8px;
+-fx-border-radius: 0px 5px 0px 0px;
+-fx-font-size:.14px;
+}
+.add-textfield:focused{
+    -fx-border-color:#ae2d3c;
+    -fx-border-width: 5px;
+}
